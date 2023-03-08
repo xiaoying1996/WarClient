@@ -1,0 +1,11 @@
+﻿  NetManager.cpp
+  Situation2D.cpp
+  WarClient.cpp
+  WarEngine.cpp
+  BaseObject.cpp
+  main.cpp
+  moc_NetManager.cpp
+  moc_Situation2D.cpp
+  moc_WarClient.cpp
+  moc_WarEngine.cpp
+  WarClient.vcxproj -> D:\CODE\WarClient\x64\Debug\WarClient.exe

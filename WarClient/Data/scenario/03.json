@@ -1,0 +1,25 @@
+{
+    "BaseObject": [
+        {
+            "ALT": "0",
+            "DestAlt": "0",
+            "DestLat": "0",
+            "DestLon": "0",
+            "ID": "2",
+            "LAT": "523",
+            "LON": "664",
+            "Name": "BaseObject"
+        },
+        {
+            "ALT": "0",
+            "DestAlt": "0",
+            "DestLat": "502",
+            "DestLon": "1389",
+            "Destalt": "0",
+            "ID": "1",
+            "LAT": "301",
+            "LON": "660",
+            "Name": "BaseObject"
+        }
+    ]
+}

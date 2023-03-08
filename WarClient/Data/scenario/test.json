@@ -1,0 +1,25 @@
+{
+    "BaseObject": [
+        {
+            "ALT": "0",
+            "ID": "1",
+            "LAT": "92",
+            "LON": "132",
+            "Name": "BaseObject"
+        },
+        {
+            "ALT": "0",
+            "ID": "2",
+            "LAT": "458",
+            "LON": "147",
+            "Name": "BaseObject"
+        },
+        {
+            "ALT": "0",
+            "ID": "3",
+            "LAT": "918",
+            "LON": "133",
+            "Name": "BaseObject"
+        }
+    ]
+}

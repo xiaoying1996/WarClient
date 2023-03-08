@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{aab8b8af-bfd6-452a-ac09-7e7006ea39b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Plane">
+      <UniqueIdentifier>{acd96dd8-9089-431c-97f3-6882942d9f61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PublicStruct">
+      <UniqueIdentifier>{01f01a85-6173-4a15-b095-7378dd2596bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{5d3275fd-c69c-4fc4-9708-13fc0351cbd8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="WarClient.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="WarClient.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="WarClient.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="WarClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOperator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\AddModel.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="WarEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Model\BaseObject.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\ScenarioEdit.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\SettingChoose.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Situation2D.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="NetManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DBOperator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PublicStruct\Data.h">
+      <Filter>PublicStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Model\BaseObject.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WarClient.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="UI\AddModel.h">
+      <Filter>UI</Filter>
+    </QtMoc>
+    <QtMoc Include="WarEngine.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="UI\ScenarioEdit.h">
+      <Filter>UI</Filter>
+    </QtMoc>
+    <QtMoc Include="UI\SettingChoose.h">
+      <Filter>UI</Filter>
+    </QtMoc>
+    <QtMoc Include="UI\Situation2D.h">
+      <Filter>UI</Filter>
+    </QtMoc>
+    <QtMoc Include="NetManager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="UI\AddModel.ui">
+      <Filter>UI</Filter>
+    </QtUic>
+    <QtUic Include="UI\ScenarioEdit.ui">
+      <Filter>UI</Filter>
+    </QtUic>
+    <QtUic Include="UI\SettingChoose.ui">
+      <Filter>UI</Filter>
+    </QtUic>
+    <QtUic Include="UI\Situation2D.ui">
+      <Filter>UI</Filter>
+    </QtUic>
+  </ItemGroup>
+</Project>
